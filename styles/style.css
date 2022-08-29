@@ -1,10 +1,48 @@
-*{
-    width: 1920px; 
-    height: 1080px;
+/* landing page */
+
+#redberry-logo-landing {
+  position: absolute;
+  width: 112px;
+  height: 18px;
+  left: calc(50% - 112px / 2);
+  top: 79px;
 }
 
-div{
-    width: 1920px;
-    background-color: brown;
-    height: 20px;
+#clipart-landing {
+  position: absolute;
+  width: 781px;
+  height: 482px;
+  left: 589px;
+  top: 182px;
+}
+
+#landing-button-one {
+  left: calc(50% - 387px / 2 - 0.5px);
+  top: 787px;
+}
+#landing-button-two {
+  left: calc(50% - 387px / 2 - 0.5px);
+  top: 873px;
+}
+
+@media only screen and (max-width: 390px) {
+  #clipart-landing {
+    content: url("/resources/mobile/Group.png");
+    position: absolute;
+    left: 15.64%;
+    right: 15.49%;
+    top: 23.93%;
+    bottom: 34.72%;
+    width: 268.58px;
+    height: 349px;
+  }
+
+  #landing-button-one {
+    left: calc(50% - 358px / 2);
+    top: 673px;
+  }
+  #landing-button-two {
+    left: calc(50% - 358px / 2);
+    top: 749px;
+  }
 }

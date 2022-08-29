@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Helvetica Neue;
+    src: url(/resources/HelveticaNeue.ttc);
+}
+button{
+    position: absolute;
+    width: 387px;
+    height: 60px;
+    background: #62A1EB;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#inside-button{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 390px) {
+
+    button{
+        position: absolute;
+        width: 358px;
+        height: 60px;
+        background: #62A1EB;
+        border-radius: 8px;
+        border: none;
+    }
+}
