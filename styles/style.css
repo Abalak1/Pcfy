@@ -54,6 +54,10 @@
 
 /* employee info page */
 
+#mobile-page-count{
+  display: none;
+}
+
 #arrow-back {
   position: absolute;
   width: 53px;
@@ -72,7 +76,7 @@
 #user-info-header {
   position: absolute;
   left: 671px;
-  top:75px;
+  top: 75px;
   width: 223px;
   height: 24px;
   font-family: "Helvetica Neue";
@@ -118,12 +122,12 @@
   border-radius: 18px;
 }
 
-#redberry-logo-bottom{
+#redberry-logo-bottom {
   position: absolute;
-width: 75px;
-height: 75px;
-left: calc(50% - 85px/2 - 0.5px);
-top: 980px;
+  width: 75px;
+  height: 75px;
+  left: calc(50% - 85px / 2 - 0.5px);
+  top: 980px;
 }
 
 #input-tag {
@@ -137,23 +141,101 @@ top: 980px;
   left: 650px;
 }
 
-#input-tag-five{
+#input-tag-five {
   position: absolute;
   top: 400px;
   left: 174px;
 }
 
-#input-tag-six{
+#input-tag-six {
   position: absolute;
   top: 550px;
   left: 174px;
 }
 
+#next {
+  position: absolute;
+  width: 176px;
+  height: 60px;
+  right: 174px;
+  top: 700px;
+}
 
-#next{
-position: absolute;
-width: 176px;
-height: 60px;
-right: 174px;
-top: 700px;
+/* mobile */
+
+@media only screen and (max-width: 390px) {
+
+  #line-under-header{
+    display: none;
+  }
+  #leptop-info-header{
+    display: none;
+  }
+  #arrow-back {
+    content: url("/resources/mobile/Vector.png");
+    position: absolute;
+    width: 9.21px;
+    height: 16px;
+    left: 20px;
+    top: 33px;
+  }
+
+  #user-info-header {
+    position: absolute;
+    width: 179px;
+    height: 20px;
+    left: calc(50% - 179px / 2 - 0.5px);
+    top: 20px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #232323;
+  }
+
+  #mobile-page-count {
+    position: absolute;
+    width: 21px;
+    height: 17px;
+    left: 184px;
+    top: 46px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #898989;
+  }
+
+  #form-background {
+    position: absolute;
+    width: auto;
+    height: 1030px;
+    left: 0px;
+    right: 0px;
+    top: 94px;
+    bottom: 0px;
+    background: #ffffff;
+    border-radius: 12px 12px 0px 0px;
+  }
+
+  #next {
+    position: absolute;
+    right: 16px;
+    top: 899px;
+
+  
+  }
+
+
+  #landing-button-one {
+    left: calc(50% - 358px / 2);
+    top: 673px;
+  }
+  #landing-button-two {
+    left: calc(50% - 358px / 2);
+    top: 749px;
+  }
 }
