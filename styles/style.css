@@ -125,3 +125,35 @@ height: 75px;
 left: calc(50% - 85px/2 - 0.5px);
 top: 980px;
 }
+
+#input-tag {
+  position: absolute;
+  top: 40px;
+  left: 174px;
+}
+#input-tag-two {
+  position: absolute;
+  top: 40px;
+  left: 650px;
+}
+
+#input-tag-five{
+  position: absolute;
+  top: 400px;
+  left: 174px;
+}
+
+#input-tag-six{
+  position: absolute;
+  top: 550px;
+  left: 174px;
+}
+
+
+#next{
+position: absolute;
+width: 176px;
+height: 60px;
+right: 174px;
+top: 700px;
+}
